@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d1s7ax2o40fe7"
+path="res://.godot/imported/call 6b.ogg-ba4052e90f077a97e21c80f6114f3da3.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Sounds/call 6b.ogg"
+dest_files=["res://.godot/imported/call 6b.ogg-ba4052e90f077a97e21c80f6114f3da3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

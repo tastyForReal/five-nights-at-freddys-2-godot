@@ -1,0 +1,1677 @@
+[gd_scene load_steps=163 format=3 uid="uid://wbxouhux51qw"]
+
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Gameplay/GameplayScene.cs" id="1_fadro"]
+[ext_resource type="Texture2D" uid="uid://dfc1v6uan8x1n" path="res://Resources/Images/GameplayScene/Office/Animation-36 Direction-0 Frame-0.png" id="2_138xv"]
+[ext_resource type="Shader" path="res://Resources/Perspective.gdshader" id="2_ilaoi"]
+[ext_resource type="Texture2D" uid="uid://xvjp1teur16k" path="res://Resources/Images/GameplayScene/Office/Animation-0 Direction-0 Frame-0.png" id="2_q1g8d"]
+[ext_resource type="Texture2D" uid="uid://t3ttv7du14jj" path="res://Resources/Images/GameplayScene/Office/Animation-37 Direction-0 Frame-0.png" id="3_jpcok"]
+[ext_resource type="Texture2D" uid="uid://wvj7w6ol3w83" path="res://Resources/Images/GameplayScene/Office/Animation-38 Direction-0 Frame-0.png" id="3_xbq3o"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Gameplay/Office.cs" id="4_a3crl"]
+[ext_resource type="Texture2D" uid="uid://ctg54v0ycdoxr" path="res://Resources/Images/GameplayScene/LeftLight/Animation-0 Direction-0 Frame-0.png" id="5_35nuc"]
+[ext_resource type="Texture2D" uid="uid://bncnvxha7ntxd" path="res://Resources/Images/GameplayScene/LeftLight/Animation-12 Direction-0 Frame-0.png" id="6_slvl4"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Gameplay/VentButtonControl.cs" id="7_jhqkf"]
+[ext_resource type="Texture2D" uid="uid://dwpd8t63klamw" path="res://Resources/Images/GameplayScene/RightLight/Animation-0 Direction-0 Frame-0.png" id="8_6ufvv"]
+[ext_resource type="Texture2D" uid="uid://bagl5mmcc8qlc" path="res://Resources/Images/GameplayScene/RightLight/Animation-12 Direction-0 Frame-0.png" id="9_ksqrv"]
+[ext_resource type="Texture2D" uid="uid://b33nn3fcjdx7i" path="res://Resources/Images/GameplayScene/TableFan/Animation-0 Direction-0 Frame-0.png" id="10_x3d6t"]
+[ext_resource type="Texture2D" uid="uid://dn2dagggbpv6x" path="res://Resources/Images/GameplayScene/TableFan/Animation-0 Direction-0 Frame-1.png" id="11_nlp3m"]
+[ext_resource type="Texture2D" uid="uid://bekngm30un83k" path="res://Resources/Images/GameplayScene/TableFan/Animation-0 Direction-0 Frame-2.png" id="12_q0dc7"]
+[ext_resource type="Texture2D" uid="uid://tbv7d8cehqyq" path="res://Resources/Images/GameplayScene/TableFan/Animation-0 Direction-0 Frame-3.png" id="13_yilag"]
+[ext_resource type="Texture2D" uid="uid://b48b0sixclc8k" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-89 Direction-0 Frame-0.png" id="15_spp30"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Camera/CameraSystem.cs" id="16_nso0e"]
+[ext_resource type="Texture2D" uid="uid://df2q7xtrche5b" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-41 Direction-0 Frame-0.png" id="16_oqp1s"]
+[ext_resource type="Texture2D" uid="uid://b3l1b8djdujvm" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-85 Direction-0 Frame-0.png" id="17_6fb6g"]
+[ext_resource type="Texture2D" uid="uid://bpjdy5kuncy3t" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-17 Direction-0 Frame-0.png" id="17_qv47w"]
+[ext_resource type="Texture2D" uid="uid://dy0bcrfq3cei4" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-42 Direction-0 Frame-0.png" id="17_s4uf5"]
+[ext_resource type="Texture2D" uid="uid://bg7u8dntrggvp" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-46 Direction-0 Frame-0.png" id="18_d4kpn"]
+[ext_resource type="Texture2D" uid="uid://c63rmi0ecvpoo" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-54 Direction-0 Frame-0.png" id="18_m4dkc"]
+[ext_resource type="Texture2D" uid="uid://crgerkoxb8c1w" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-87 Direction-0 Frame-0.png" id="18_v7kdi"]
+[ext_resource type="Texture2D" uid="uid://b3875vclxoolm" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom1/Animation-27 Direction-0 Frame-0.png" id="18_xp7qm"]
+[ext_resource type="Texture2D" uid="uid://yn4kitedhdq2" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom1/Animation-51 Direction-0 Frame-0.png" id="19_b4xu5"]
+[ext_resource type="Texture2D" uid="uid://by03iuukbha5p" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-12 Direction-0 Frame-0.png" id="19_p47p6"]
+[ext_resource type="Texture2D" uid="uid://dwcgycbdrburn" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-18 Direction-0 Frame-0.png" id="19_rqca4"]
+[ext_resource type="Texture2D" uid="uid://crqygnh50fsp0" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom1/Animation-59 Direction-0 Frame-0.png" id="20_b31lm"]
+[ext_resource type="Texture2D" uid="uid://cx36onrppfdmf" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-40 Direction-0 Frame-0.png" id="20_ugal8"]
+[ext_resource type="Texture2D" uid="uid://badhn75f26fmy" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom1/Animation-28 Direction-0 Frame-0.png" id="21_cw18w"]
+[ext_resource type="Texture2D" uid="uid://tanmeoduw0ic" path="res://Resources/Images/GameplayScene/CameraImages/ShowStage/Animation-39 Direction-0 Frame-0.png" id="21_hr52b"]
+[ext_resource type="Texture2D" uid="uid://ut7yheoho8w2" path="res://Resources/Images/GameplayScene/CameraUserInterface/CameraMap.png" id="21_mrliv"]
+[ext_resource type="Texture2D" uid="uid://w5qrn6ctbdhd" path="res://Resources/Images/GameplayScene/CameraImages/GameArea/Animation-86 Direction-0 Frame-0.png" id="22_4cprx"]
+[ext_resource type="Texture2D" uid="uid://dl0b5kcdkvl02" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom2/Animation-33 Direction-0 Frame-0.png" id="22_tiirn"]
+[ext_resource type="FontFile" uid="uid://d3kwpqje6t8og" path="res://Resources/Fonts/LCD Solid/LcdSolid-VPzB.ttf" id="22_yualo"]
+[ext_resource type="Texture2D" uid="uid://bu61wh08q5x8e" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom2/Animation-44 Direction-0 Frame-0.png" id="23_b6qud"]
+[ext_resource type="Texture2D" uid="uid://cwd0x1tv5loxi" path="res://Resources/Images/GameplayScene/CameraImages/KidsCove/Animation-19 Direction-0 Frame-0.png" id="23_eantj"]
+[ext_resource type="Texture2D" uid="uid://u23buw2eex07" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom2/Animation-34 Direction-0 Frame-0.png" id="23_qaxnc"]
+[ext_resource type="Texture2D" uid="uid://de7rg2ua27d7d" path="res://Resources/Images/GameplayScene/CameraUserInterface/CameraButton.png" id="23_rt0sc"]
+[ext_resource type="Texture2D" uid="uid://be61j4dqeftla" path="res://Resources/Images/GameplayScene/CameraImages/KidsCove/Animation-80 Direction-0 Frame-0.png" id="24_2r5m1"]
+[ext_resource type="Texture2D" uid="uid://bnkhj70bvqbvo" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom2/Animation-65 Direction-0 Frame-0.png" id="24_p44j4"]
+[ext_resource type="Texture2D" uid="uid://kor2hbhg3orh" path="res://Resources/Images/GameplayScene/CameraImages/KidsCove/Animation-20 Direction-0 Frame-0.png" id="24_r6xjd"]
+[ext_resource type="Texture2D" uid="uid://v82swk0ralop" path="res://Resources/Images/GameplayScene/CameraUserInterface/CameraButtonPressed.png" id="24_tounp"]
+[ext_resource type="Texture2D" uid="uid://civhknhklj06l" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom2/Animation-66 Direction-0 Frame-0.png" id="25_w4ayw"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Camera/CameraButtons.cs" id="26_2fn0v"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Camera/CameraRoomLabel.cs" id="26_ap41j"]
+[ext_resource type="Texture2D" uid="uid://dgqhb4axnb1st" path="res://Resources/Images/GameplayScene/UI/BatteryLife1.png" id="26_b0ekn"]
+[ext_resource type="Texture2D" uid="uid://c184pp1hcxq2r" path="res://Resources/Images/GameplayScene/CameraImages/LeftAirVent/Animation-13 Direction-0 Frame-0.png" id="26_e5ynx"]
+[ext_resource type="Texture2D" uid="uid://brtakju4bp3pl" path="res://Resources/Images/GameplayScene/CameraImages/LeftAirVent/Animation-14 Direction-0 Frame-0.png" id="27_0rv3k"]
+[ext_resource type="Texture2D" uid="uid://baldx5xgf2n4t" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom3/Animation-29 Direction-0 Frame-0.png" id="27_3tj4p"]
+[ext_resource type="Texture2D" uid="uid://v4nko5ds0rfg" path="res://Resources/Images/GameplayScene/UI/BatteryLife2.png" id="27_ebi1h"]
+[ext_resource type="Texture2D" uid="uid://ymgbii582rqx" path="res://Resources/Images/GameplayScene/CameraImages/LeftAirVent/Animation-100 Direction-0 Frame-0.png" id="28_3t0nf"]
+[ext_resource type="Texture2D" uid="uid://bd7ish5sss6co" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom3/Animation-43 Direction-0 Frame-0.png" id="28_ejefe"]
+[ext_resource type="Texture2D" uid="uid://b6gupquyyvfff" path="res://Resources/Images/GameplayScene/UI/BatteryLife3.png" id="28_ft423"]
+[ext_resource type="Texture2D" uid="uid://bq3cgt47utps7" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom3/Animation-30 Direction-0 Frame-0.png" id="28_nt43v"]
+[ext_resource type="Texture2D" uid="uid://1m42xxlpakxm" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom3/Animation-71 Direction-0 Frame-0.png" id="29_sf0oe"]
+[ext_resource type="Texture2D" uid="uid://cim6jxv745s7k" path="res://Resources/Images/GameplayScene/UI/BatteryLife4.png" id="29_u2ut7"]
+[ext_resource type="Texture2D" uid="uid://nshlbb128v5p" path="res://Resources/Images/GameplayScene/CameraImages/LeftAirVent/Animation-52 Direction-0 Frame-0.png" id="29_vbek8"]
+[ext_resource type="Texture2D" uid="uid://cpftc4h5el87h" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom3/Animation-72 Direction-0 Frame-0.png" id="30_adrrp"]
+[ext_resource type="Texture2D" uid="uid://v7g4co8v2pfu" path="res://Resources/Images/GameplayScene/CameraImages/LeftAirVent/Animation-60 Direction-0 Frame-0.png" id="30_d0jnp"]
+[ext_resource type="Texture2D" uid="uid://b6cj8oi20f7p5" path="res://Resources/Images/GameplayScene/UI/BatteryLife5.png" id="30_etfj6"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/UserInterface/BatteryLife.cs" id="31_306jh"]
+[ext_resource type="Texture2D" uid="uid://cg7xkj0ei83bi" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-21 Direction-0 Frame-0.png" id="31_msbxs"]
+[ext_resource type="Texture2D" uid="uid://d1b3u8pbnhj5v" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom4/Animation-31 Direction-0 Frame-0.png" id="32_3hk58"]
+[ext_resource type="Texture2D" uid="uid://cwvfjebjn5ljj" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom4/Animation-90 Direction-0 Frame-0.png" id="32_c6vr3"]
+[ext_resource type="Texture2D" uid="uid://boy87o18ir3m3" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-0.png" id="32_erqbt"]
+[ext_resource type="Texture2D" uid="uid://dtxluxs6eva2s" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-22 Direction-0 Frame-0.png" id="32_gqpm5"]
+[ext_resource type="Texture2D" uid="uid://c2k6ur4hpmvio" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-1.png" id="33_8dhoy"]
+[ext_resource type="Texture2D" uid="uid://dmqssbe46byy" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom4/Animation-32 Direction-0 Frame-0.png" id="33_ddbdm"]
+[ext_resource type="Texture2D" uid="uid://bpodnk86k6cx" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom4/Animation-91 Direction-0 Frame-0.png" id="33_il4xl"]
+[ext_resource type="Texture2D" uid="uid://b3r3neolu7vwq" path="res://Resources/Images/GameplayScene/CameraImages/PartyRoom4/Animation-67 Direction-0 Frame-0.png" id="33_tb3fh"]
+[ext_resource type="Texture2D" uid="uid://bgn87ce4amcia" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-48 Direction-0 Frame-0.png" id="33_y6cql"]
+[ext_resource type="Texture2D" uid="uid://ljcxh0xiitmk" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-2.png" id="34_3vehp"]
+[ext_resource type="Texture2D" uid="uid://bg7hy1gkvdeig" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-49 Direction-0 Frame-0.png" id="34_g880t"]
+[ext_resource type="Texture2D" uid="uid://dxu58b7t1svor" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-3.png" id="35_7hnkq"]
+[ext_resource type="Texture2D" uid="uid://bhlrh6sulomth" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-57 Direction-0 Frame-0.png" id="35_ods68"]
+[ext_resource type="Texture2D" uid="uid://baqxdxaq4mjnr" path="res://Resources/Images/GameplayScene/CameraImages/MainHall/Animation-70 Direction-0 Frame-0.png" id="36_1wlfi"]
+[ext_resource type="Texture2D" uid="uid://cc5q7ojpvyvvy" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-4.png" id="36_sdoca"]
+[ext_resource type="Texture2D" uid="uid://iw16mv7q7w00" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-5.png" id="37_gt787"]
+[ext_resource type="Texture2D" uid="uid://dp4r635mrvrq7" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-23 Direction-0 Frame-0.png" id="37_ms1yx"]
+[ext_resource type="Texture2D" uid="uid://5qhuav8sb3oq" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-6.png" id="38_8346m"]
+[ext_resource type="Texture2D" uid="uid://dcbecx0hhcwrl" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-24 Direction-0 Frame-0.png" id="38_ws2b5"]
+[ext_resource type="Texture2D" uid="uid://b8hb6dcd55fdm" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-64 Direction-0 Frame-0.png" id="38_yuove"]
+[ext_resource type="Texture2D" uid="uid://clap0dijfs6h3" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-75 Direction-0 Frame-0.png" id="39_cujbr"]
+[ext_resource type="Texture2D" uid="uid://cf05qen2apvcl" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-7.png" id="39_wtdnk"]
+[ext_resource type="Texture2D" uid="uid://btyvxdyc536n0" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-8.png" id="40_bmnde"]
+[ext_resource type="Texture2D" uid="uid://bjlosvob2q0n2" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-63 Direction-0 Frame-0.png" id="40_ojtjc"]
+[ext_resource type="Texture2D" uid="uid://bvtumtok10j1v" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-9.png" id="41_ntlpc"]
+[ext_resource type="Texture2D" uid="uid://cki7t6ly0mmej" path="res://Resources/Images/GameplayScene/CameraFlipAnimation/Animation-0 Direction-0 Frame-10.png" id="42_4td75"]
+[ext_resource type="Texture2D" uid="uid://buepyv75jauh4" path="res://Resources/Images/GameplayScene/CameraImages/PartsService/Animation-62 Direction-0 Frame-0.png" id="42_uo33v"]
+[ext_resource type="Texture2D" uid="uid://bybk1wol33mbv" path="res://Resources/Images/GameplayScene/UI/FlipPanelButton.png" id="43_b8dtr"]
+[ext_resource type="Texture2D" uid="uid://pplix4mb7qb6" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-0.png" id="45_dibsr"]
+[ext_resource type="Texture2D" uid="uid://dkmw0ayetm74a" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-1.png" id="46_68a34"]
+[ext_resource type="Texture2D" uid="uid://x0hk2xwtpgtt" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-2.png" id="47_o7qck"]
+[ext_resource type="Texture2D" uid="uid://dq4j4m0w55o3t" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-3.png" id="48_ma5ej"]
+[ext_resource type="Texture2D" uid="uid://dyi2s2novdtpd" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-4.png" id="49_xno6e"]
+[ext_resource type="Texture2D" uid="uid://b5sbc3on2vwax" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-5.png" id="50_gxnjf"]
+[ext_resource type="Texture2D" uid="uid://bim08wobj6pvm" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-6.png" id="51_ko3mc"]
+[ext_resource type="Texture2D" uid="uid://dlefqjwlv1m8w" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-7.png" id="52_3esyf"]
+[ext_resource type="Texture2D" uid="uid://cow2kx0aj850t" path="res://Resources/Images/GameplayScene/MaskCoverAnimation/Animation-0 Direction-0 Frame-8.png" id="53_80bfv"]
+[ext_resource type="Texture2D" uid="uid://boe2bsc41kjm2" path="res://Resources/Images/GameplayScene/UI/FlipMaskButton.png" id="54_lh3wa"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Gameplay/GameplayCamera.cs" id="56_b46f0"]
+[ext_resource type="AudioStream" uid="uid://dxcuxjam2gnam" path="res://Resources/Sounds/In_The_Depths_C.ogg" id="57_6gj0l"]
+[ext_resource type="AudioStream" uid="uid://bi6swcbmoftiv" path="res://Resources/Sounds/fansound.ogg" id="58_wnpsv"]
+[ext_resource type="AudioStream" uid="uid://0vdwha0o1rs6" path="res://Resources/Sounds/buzzlight.ogg" id="59_mra13"]
+[ext_resource type="AudioStream" uid="uid://icojasrfqe0u" path="res://Resources/Sounds/STEREO_CASSETTE__90097704.ogg" id="60_tc8sy"]
+[ext_resource type="AudioStream" uid="uid://tovhwj0skok0" path="res://Resources/Sounds/STEREO_CASSETTE__90097701.ogg" id="61_js3it"]
+[ext_resource type="AudioStream" uid="uid://b6mc08q2bd67a" path="res://Resources/Sounds/FENCING_43_GEN-HDF10954.ogg" id="62_quksb"]
+[ext_resource type="Texture2D" uid="uid://m6upsfvqle0j" path="res://Resources/Images/GameplayScene/CameraImages/PrizeCorner/Animation-25 Direction-0 Frame-0.png" id="62_w1poc"]
+[ext_resource type="AudioStream" uid="uid://dx00v1j5vrf8h" path="res://Resources/Sounds/FENCING_42_GEN-HDF10953.ogg" id="63_mapyg"]
+[ext_resource type="Texture2D" uid="uid://bgu436oukd72" path="res://Resources/Images/GameplayScene/CameraImages/PrizeCorner/Animation-77 Direction-0 Frame-0.png" id="63_we02c"]
+[ext_resource type="Texture2D" uid="uid://5toyqn4dty0p" path="res://Resources/Images/GameplayScene/CameraImages/PrizeCorner/Animation-78 Direction-0 Frame-0.png" id="64_r1cjc"]
+[ext_resource type="Texture2D" uid="uid://df6nuxih57x38" path="res://Resources/Images/GameplayScene/CameraImages/PrizeCorner/Animation-26 Direction-0 Frame-0.png" id="65_355ep"]
+[ext_resource type="Texture2D" uid="uid://b8aklvyaat64g" path="res://Resources/Images/GameplayScene/CameraImages/RightAirVent/Animation-15 Direction-0 Frame-0.png" id="67_58f4j"]
+[ext_resource type="Texture2D" uid="uid://bcruoljcmj8ie" path="res://Resources/Images/GameplayScene/CameraImages/RightAirVent/Animation-16 Direction-0 Frame-0.png" id="68_fh5u6"]
+[ext_resource type="AudioStream" uid="uid://qroyi6021boq" path="res://Resources/Sounds/COMPUTER_DIGITAL_L2076605.ogg" id="69_nv0hu"]
+[ext_resource type="Texture2D" uid="uid://d0w7j8xphdnmo" path="res://Resources/Images/GameplayScene/CameraImages/RightAirVent/Animation-81 Direction-0 Frame-0.png" id="69_r40gs"]
+[ext_resource type="Texture2D" uid="uid://b23qlexfnwdof" path="res://Resources/Images/GameplayScene/CameraImages/RightAirVent/Animation-68 Direction-0 Frame-0.png" id="70_0nyf6"]
+[ext_resource type="Texture2D" uid="uid://3jemwnybwdmo" path="res://Resources/Images/GameplayScene/CameraImages/PrizeCorner/Animation-79 Direction-0 Frame-0.png" id="73_t7adb"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Camera/CameraScreen.cs" id="78_we4dq"]
+[ext_resource type="Texture2D" uid="uid://blb8pd3m83cyt" path="res://Resources/Images/GameplayScene/CameraUserInterface/CameraBorder.png" id="79_uibbd"]
+[ext_resource type="Texture2D" uid="uid://bdo4d3qe5i556" path="res://Resources/Images/GameplayScene/AnimatronicIcons/OldFreddy.png" id="85_0o12f"]
+[ext_resource type="Texture2D" uid="uid://dduuqkglfy4ex" path="res://Resources/Images/GameplayScene/CameraUserInterface/CameraRedDot.png" id="85_a5nx7"]
+[ext_resource type="Texture2D" uid="uid://ci5640lw3pdkc" path="res://Resources/Images/GameplayScene/AnimatronicIcons/OldBonnie.png" id="86_xc152"]
+[ext_resource type="Texture2D" uid="uid://fg4vjk6ot6th" path="res://Resources/Images/GameplayScene/AnimatronicIcons/OldChica.png" id="87_s2csv"]
+[ext_resource type="Texture2D" uid="uid://23fd22c8qm0s" path="res://Resources/Images/GameplayScene/AnimatronicIcons/OldFoxy.png" id="88_wdviy"]
+[ext_resource type="Texture2D" uid="uid://dmfai1kwrpxbj" path="res://Resources/Images/GameplayScene/AnimatronicIcons/BalloonBoy.png" id="89_hcypp"]
+[ext_resource type="Texture2D" uid="uid://0nh7aud50cfa" path="res://Resources/Images/GameplayScene/AnimatronicIcons/NewFreddy.png" id="90_3kfyv"]
+[ext_resource type="Texture2D" uid="uid://n24d7uxypahm" path="res://Resources/Images/GameplayScene/AnimatronicIcons/NewBonnie.png" id="91_deb5t"]
+[ext_resource type="Texture2D" uid="uid://dk1xh16215cvy" path="res://Resources/Images/GameplayScene/AnimatronicIcons/NewChica.png" id="92_xjr1f"]
+[ext_resource type="Texture2D" uid="uid://covuqlr87s5fj" path="res://Resources/Images/GameplayScene/AnimatronicIcons/NewFoxy.png" id="93_x2qf1"]
+[ext_resource type="Texture2D" uid="uid://dsfb3ux1arirn" path="res://Resources/Images/GameplayScene/AnimatronicIcons/GoldenFreddy.png" id="94_t05us"]
+[ext_resource type="Texture2D" uid="uid://lk66l5uixaet" path="res://Resources/Images/GameplayScene/AnimatronicIcons/Puppet.png" id="95_wjhso"]
+[ext_resource type="Texture2D" uid="uid://eyy7xcpyr2vo" path="res://Resources/Images/GameplayScene/Mask/Animation-0 Direction-0 Frame-0.png" id="96_56ogt"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/Gameplay/Mask.cs" id="98_ey0t3"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/NightProgress/NightProgressLayer.cs" id="101_xl03k"]
+[ext_resource type="Script" path="res://Game/Scenes/GameplayScene/UserInterface/FlipButtonControl.cs" id="129_o21qi"]
+[ext_resource type="AudioStream" uid="uid://db7jjqa5rbomw" path="res://Resources/Sounds/deepbreaths.ogg" id="138_qou4g"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ma7hp"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_138xv")
+}],
+"loop": false,
+"name": &"FlashlightOn",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_jpcok")
+}],
+"loop": false,
+"name": &"LeftVentLightOn",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_q1g8d")
+}],
+"loop": false,
+"name": &"LightsOff",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_xbq3o")
+}],
+"loop": false,
+"name": &"RightVentLightOn",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vxbqt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_35nuc")
+}],
+"loop": true,
+"name": &"Off",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_slvl4")
+}],
+"loop": true,
+"name": &"On",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wt06n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_6ufvv")
+}],
+"loop": true,
+"name": &"Off",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_ksqrv")
+}],
+"loop": true,
+"name": &"On",
+"speed": 5.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_n5uuq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_x3d6t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_nlp3m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_q0dc7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_yilag")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sujkn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_6fb6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_v7kdi")
+}],
+"loop": false,
+"name": &"Game Area [Scrollable]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_qv47w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_rqca4")
+}],
+"loop": false,
+"name": &"Game Area [Scrollable] [Balloon Boy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_qv47w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_m4dkc")
+}],
+"loop": false,
+"name": &"Game Area [Scrollable] [Balloon Boy] [Toy Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_6fb6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_4cprx")
+}],
+"loop": false,
+"name": &"Game Area [Scrollable] [Toy Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_eantj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_2r5m1")
+}],
+"loop": false,
+"name": &"Kid\'s Cove [Scrollable]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_eantj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_r6xjd")
+}],
+"loop": false,
+"name": &"Kid\'s Cove [Scrollable] [Mangle]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_e5ynx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_0rv3k")
+}],
+"loop": false,
+"name": &"Left Air Vent",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_e5ynx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_3t0nf")
+}],
+"loop": false,
+"name": &"Left Air Vent [Balloon Boy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_e5ynx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vbek8")
+}],
+"loop": false,
+"name": &"Left Air Vent [Toy Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_e5ynx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_d0jnp")
+}],
+"loop": false,
+"name": &"Left Air Vent [Withered Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_msbxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_gqpm5")
+}],
+"loop": false,
+"name": &"Main Hall [Scrollable]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("33_y6cql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_g880t")
+}],
+"loop": false,
+"name": &"Main Hall [Scrollable] [Toy Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_msbxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ods68")
+}],
+"loop": false,
+"name": &"Main Hall [Scrollable] [Withered Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_msbxs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_1wlfi")
+}],
+"loop": false,
+"name": &"Main Hall [Scrollable] [Withered Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_ms1yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_yuove")
+}],
+"loop": false,
+"name": &"Parts Service [Scrollable]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_ms1yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_cujbr")
+}],
+"loop": false,
+"name": &"Parts Service [Scrollable] [Withered Foxy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_ms1yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_ojtjc")
+}],
+"loop": false,
+"name": &"Parts Service [Scrollable] [Withered Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_ms1yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_ws2b5")
+}],
+"loop": false,
+"name": &"Parts Service [Scrollable] [Withered Freddy] [Withered Bonnie] [Withered Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("37_ms1yx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_uo33v")
+}],
+"loop": false,
+"name": &"Parts Service [Scrollable] [Withered Freddy] [Withered Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_xp7qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_cw18w")
+}],
+"loop": false,
+"name": &"Party Room 1",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_xp7qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_b4xu5")
+}],
+"loop": false,
+"name": &"Party Room 1 [Toy Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_xp7qm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_b31lm")
+}],
+"loop": false,
+"name": &"Party Room 1 [Withered Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_tiirn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_qaxnc")
+}],
+"loop": false,
+"name": &"Party Room 2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_tiirn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_b6qud")
+}],
+"loop": false,
+"name": &"Party Room 2 [Toy Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("24_p44j4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_w4ayw")
+}],
+"loop": false,
+"name": &"Party Room 2 [Withered Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_3tj4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_nt43v")
+}],
+"loop": false,
+"name": &"Party Room 3",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("27_3tj4p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ejefe")
+}],
+"loop": false,
+"name": &"Party Room 3 [Toy Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("29_sf0oe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_adrrp")
+}],
+"loop": false,
+"name": &"Party Room 3 [Withered Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_3hk58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ddbdm")
+}],
+"loop": false,
+"name": &"Party Room 4",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_c6vr3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_il4xl")
+}],
+"loop": false,
+"name": &"Party Room 4 [Toy Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_3hk58")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_tb3fh")
+}],
+"loop": false,
+"name": &"Party Room 4 [Withered Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_w1poc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_we02c")
+}],
+"loop": false,
+"name": &"Prize Corner [Scrollable] [Puppet Leave Stage 1]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_w1poc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("64_r1cjc")
+}],
+"loop": false,
+"name": &"Prize Corner [Scrollable] [Puppet Leave Stage 2]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_w1poc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("73_t7adb")
+}],
+"loop": false,
+"name": &"Prize Corner [Scrollable] [Puppet Leave Stage 3]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("62_w1poc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("65_355ep")
+}],
+"loop": false,
+"name": &"Prize Corner [Scrollable] [Puppet]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67_58f4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("68_fh5u6")
+}],
+"loop": false,
+"name": &"Right Air Vent",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67_58f4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("69_r40gs")
+}],
+"loop": false,
+"name": &"Right Air Vent [Mangle]",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": false,
+"name": &"Right Air Vent [Toy Bonnie]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("67_58f4j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("70_0nyf6")
+}],
+"loop": false,
+"name": &"Right Air Vent [Withered Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_spp30")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_spp30")
+}],
+"loop": false,
+"name": &"Show Stage [Scrollable]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_oqp1s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_s4uf5")
+}],
+"loop": false,
+"name": &"Show Stage [Scrollable] [Toy Freddy]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_d4kpn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_p47p6")
+}],
+"loop": false,
+"name": &"Show Stage [Scrollable] [Toy Freddy] [Toy Bonnie] [Toy Chica]",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("21_hr52b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_ugal8")
+}],
+"loop": false,
+"name": &"Show Stage [Scrollable] [Toy Freddy] [Toy Chica]",
+"speed": 5.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xq7gn"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 31
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4begm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("23_rt0sc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tounp")
+}],
+"loop": false,
+"name": &"default",
+"speed": 0.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_55ytg"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+
+[sub_resource type="Animation" id="Animation_kul2a"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_eytcr"]
+resource_name = "Rec"
+length = 2.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_5pmtu"]
+_data = {
+"RESET": SubResource("Animation_kul2a"),
+"Rec": SubResource("Animation_eytcr")
+}
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_us8vo"]
+shader = ExtResource("2_ilaoi")
+shader_parameter/zoom = 200.0
+shader_parameter/isVertical = false
+shader_parameter/noWrap = true
+
+[sub_resource type="Gradient" id="Gradient_hapha"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_jw13g"]
+gradient = SubResource("Gradient_hapha")
+width = 1024
+height = 768
+
+[sub_resource type="LabelSettings" id="LabelSettings_acshu"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 36
+
+[sub_resource type="LabelSettings" id="LabelSettings_6xqxl"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 36
+
+[sub_resource type="LabelSettings" id="LabelSettings_yh223"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 19
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0s2r5"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_b0ekn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_b0ekn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_ebi1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ft423")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_u2ut7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_etfj6")
+}],
+"loop": false,
+"name": &"default",
+"speed": 0.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_rsgha"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 36
+
+[sub_resource type="LabelSettings" id="LabelSettings_e6vxm"]
+line_spacing = 0.0
+font = ExtResource("22_yualo")
+font_size = 13
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g217c"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("32_erqbt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_8dhoy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_3vehp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_7hnkq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_sdoca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_gt787")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_8346m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_wtdnk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_bmnde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_ntlpc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_4td75")
+}],
+"loop": false,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0xaua"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_dibsr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_68a34")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_o7qck")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_ma5ej")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xno6e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_gxnjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_ko3mc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_3esyf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_80bfv")
+}],
+"loop": false,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="GameplayScene" type="Node2D" node_paths=PackedStringArray("flipMaskButtonControl", "flipPanelButtonControl", "flipPanelButton", "flipMaskButton", "nightProgress")]
+script = ExtResource("1_fadro")
+flipMaskButtonControl = NodePath("UserInterfaceLayer/FlipMaskButton/FlipMaskButtonControl")
+flipPanelButtonControl = NodePath("UserInterfaceLayer/FlipPanelButton/FlipPanelButtonControl")
+flipPanelButton = NodePath("UserInterfaceLayer/FlipPanelButton")
+flipMaskButton = NodePath("UserInterfaceLayer/FlipMaskButton")
+nightProgress = NodePath("NightProgressLayer")
+
+[node name="Office" type="AnimatedSprite2D" parent="." node_paths=PackedStringArray("batteryLife", "buzzLightAudio", "flipMaskButtonControl", "leftVentButtonControl", "rightVentButtonControl")]
+sprite_frames = SubResource("SpriteFrames_ma7hp")
+animation = &"LightsOff"
+centered = false
+script = ExtResource("4_a3crl")
+batteryLife = NodePath("../UserInterfaceLayer/BatteryLife")
+buzzLightAudio = NodePath("../GameplayAudio/BuzzLightSound")
+flipMaskButtonControl = NodePath("../UserInterfaceLayer/FlipMaskButton/FlipMaskButtonControl")
+leftVentButtonControl = NodePath("LeftVentLight/LeftVentButtonControl")
+rightVentButtonControl = NodePath("RightVentLight/RightVentButtonControl")
+
+[node name="LeftVentLight" type="AnimatedSprite2D" parent="Office"]
+position = Vector2(105, 361)
+sprite_frames = SubResource("SpriteFrames_vxbqt")
+animation = &"Off"
+centered = false
+
+[node name="LeftVentButtonControl" type="Control" parent="Office/LeftVentLight" node_paths=PackedStringArray("flipMaskButtonControl", "flipPanelButtonControl", "ventLightButton")]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = -70.5
+offset_right = 46.0
+offset_bottom = 70.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("7_jhqkf")
+flipMaskButtonControl = NodePath("../../../UserInterfaceLayer/FlipMaskButton/FlipMaskButtonControl")
+flipPanelButtonControl = NodePath("../../../UserInterfaceLayer/FlipPanelButton/FlipPanelButtonControl")
+ventLightButton = NodePath("..")
+metadata/_edit_use_anchors_ = true
+
+[node name="RightVentLight" type="AnimatedSprite2D" parent="Office"]
+position = Vector2(1395, 359)
+sprite_frames = SubResource("SpriteFrames_wt06n")
+animation = &"Off"
+centered = false
+
+[node name="RightVentButtonControl" type="Control" parent="Office/RightVentLight" node_paths=PackedStringArray("flipMaskButtonControl", "flipPanelButtonControl", "ventLightButton")]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -46.0
+offset_top = -70.5
+offset_right = 46.0
+offset_bottom = 70.5
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("7_jhqkf")
+flipMaskButtonControl = NodePath("../../../UserInterfaceLayer/FlipMaskButton/FlipMaskButtonControl")
+flipPanelButtonControl = NodePath("../../../UserInterfaceLayer/FlipPanelButton/FlipPanelButtonControl")
+ventLightButton = NodePath("..")
+metadata/_edit_use_anchors_ = true
+
+[node name="TableFan" type="AnimatedSprite2D" parent="Office"]
+position = Vector2(568, 333)
+sprite_frames = SubResource("SpriteFrames_n5uuq")
+autoplay = "default"
+centered = false
+
+[node name="CameraLayer" type="CanvasLayer" parent="."]
+
+[node name="CameraSystem" type="CanvasLayer" parent="CameraLayer" node_paths=PackedStringArray("cameraButtons", "cameraScreenLayer", "flipButtonControl")]
+layer = 2
+script = ExtResource("16_nso0e")
+cameraButtons = NodePath("CameraButtons")
+cameraScreenLayer = NodePath("CameraScreenLayer")
+flipButtonControl = NodePath("../../UserInterfaceLayer/FlipPanelButton/FlipPanelButtonControl")
+
+[node name="CameraScreenLayer" type="CanvasLayer" parent="CameraLayer/CameraSystem"]
+visible = false
+
+[node name="CameraScreen" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraScreenLayer" node_paths=PackedStringArray("cameraRoomLabel", "batteryLife")]
+sprite_frames = SubResource("SpriteFrames_sujkn")
+animation = &"Prize Corner [Scrollable] [Puppet Leave Stage 1]"
+centered = false
+script = ExtResource("78_we4dq")
+cameraRoomLabel = NodePath("../../CameraRoomLabel")
+batteryLife = NodePath("../../../../UserInterfaceLayer/BatteryLife")
+
+[node name="CameraBorder" type="TextureRect" parent="CameraLayer/CameraSystem"]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("79_uibbd")
+
+[node name="CameraMap" type="TextureRect" parent="CameraLayer/CameraSystem"]
+offset_left = 545.0
+offset_top = 347.0
+offset_right = 961.0
+offset_bottom = 659.0
+texture = ExtResource("21_mrliv")
+
+[node name="CameraRoomLabel" type="Label" parent="CameraLayer/CameraSystem" node_paths=PackedStringArray("cameraButtons")]
+offset_left = 553.0
+offset_top = 307.0
+offset_right = 781.0
+offset_bottom = 339.0
+text = "Party Room 1"
+label_settings = SubResource("LabelSettings_xq7gn")
+script = ExtResource("26_ap41j")
+cameraButtons = NodePath("../CameraButtons")
+
+[node name="CameraButtons" type="CanvasLayer" parent="CameraLayer/CameraSystem" node_paths=PackedStringArray("blipSound")]
+layer = 2
+script = ExtResource("26_2fn0v")
+blipSound = NodePath("../../../GameplayAudio/BlipSound")
+
+[node name="Camera1" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(602, 557)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera1"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera1"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+01"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera2" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(734, 558)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera2"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera2"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+02"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera3" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(602, 491)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera3"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera3"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+03"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera4" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(737, 491)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera4"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera4"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+04"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera5" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(608, 651)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera5"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera5"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+05"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera6" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(723, 651)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera6"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera6"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+06"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera7" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(758, 431)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera7"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera7"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+07"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera8" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(603, 420)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera8"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera8"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+08"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera9" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(915, 390)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera9"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera9"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+09"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera10" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(847, 509)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera10"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera10"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+10"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera11" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(950, 465)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera11"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera11"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+11"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera12" type="AnimatedSprite2D" parent="CameraLayer/CameraSystem/CameraButtons"]
+position = Vector2(933, 558)
+sprite_frames = SubResource("SpriteFrames_4begm")
+
+[node name="CameraButton" type="Control" parent="CameraLayer/CameraSystem/CameraButtons/Camera12"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -60.0
+offset_top = -40.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CameraLayer/CameraSystem/CameraButtons/Camera12"]
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = -24.0
+offset_top = -36.0
+offset_right = 6.0
+offset_bottom = -2.0
+grow_vertical = 2
+text = "CAM
+12"
+label_settings = SubResource("LabelSettings_55ytg")
+metadata/_edit_use_anchors_ = true
+
+[node name="CameraRedDot" type="TextureRect" parent="CameraLayer/CameraSystem"]
+offset_left = 36.0
+offset_top = 96.0
+offset_right = 80.0
+offset_bottom = 139.0
+size_flags_horizontal = 4
+texture = ExtResource("85_a5nx7")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CameraLayer/CameraSystem/CameraRedDot"]
+autoplay = "Rec"
+libraries = {
+"": SubResource("AnimationLibrary_5pmtu")
+}
+
+[node name="RadarLayer" type="CanvasLayer" parent="CameraLayer/CameraSystem"]
+layer = 3
+
+[node name="OldFreddy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 24.0
+offset_bottom = 24.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 10
+texture = ExtResource("85_0o12f")
+
+[node name="OldBonnie" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 512.0
+offset_top = 408.0
+offset_right = 536.0
+offset_bottom = 432.0
+texture = ExtResource("86_xc152")
+
+[node name="OldChica" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 512.0
+offset_top = 432.0
+offset_right = 536.0
+offset_bottom = 456.0
+texture = ExtResource("87_s2csv")
+
+[node name="OldFoxy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 536.0
+offset_top = 408.0
+offset_right = 560.0
+offset_bottom = 432.0
+texture = ExtResource("88_wdviy")
+
+[node name="BalloonBoy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 824.0
+offset_top = 536.0
+offset_right = 848.0
+offset_bottom = 560.0
+texture = ExtResource("89_hcypp")
+
+[node name="NewFreddy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 880.0
+offset_top = 344.0
+offset_right = 904.0
+offset_bottom = 368.0
+texture = ExtResource("90_3kfyv")
+
+[node name="NewBonnie" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 904.0
+offset_top = 344.0
+offset_right = 928.0
+offset_bottom = 368.0
+texture = ExtResource("91_deb5t")
+
+[node name="NewChica" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 928.0
+offset_top = 344.0
+offset_right = 952.0
+offset_bottom = 368.0
+texture = ExtResource("92_xjr1f")
+
+[node name="NewFoxy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 968.0
+offset_top = 544.0
+offset_right = 992.0
+offset_bottom = 568.0
+texture = ExtResource("93_x2qf1")
+
+[node name="GoldenFreddy" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 656.0
+offset_top = 664.0
+offset_right = 680.0
+offset_bottom = 688.0
+texture = ExtResource("94_t05us")
+
+[node name="Puppet" type="TextureRect" parent="CameraLayer/CameraSystem/RadarLayer"]
+offset_left = 888.0
+offset_top = 456.0
+offset_right = 912.0
+offset_bottom = 480.0
+size_flags_horizontal = 4
+texture = ExtResource("95_wjhso")
+
+[node name="MaskLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="Mask" type="TextureRect" parent="MaskLayer" node_paths=PackedStringArray("deepBreathsSound", "flipButtonControl")]
+visible = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -612.0
+offset_top = -459.0
+offset_right = 612.0
+offset_bottom = 459.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("96_56ogt")
+script = ExtResource("98_ey0t3")
+deepBreathsSound = NodePath("../../GameplayAudio/DeepBreathsSound")
+flipButtonControl = NodePath("../../UserInterfaceLayer/FlipMaskButton/FlipMaskButtonControl")
+
+[node name="PerspectiveLayer" type="CanvasLayer" parent="."]
+
+[node name="Perspective" type="Sprite2D" parent="PerspectiveLayer"]
+visible = false
+material = SubResource("ShaderMaterial_us8vo")
+texture = SubResource("GradientTexture2D_jw13g")
+centered = false
+
+[node name="NightProgressLayer" type="CanvasLayer" parent="." node_paths=PackedStringArray("nightHour", "nightLevel", "currentTime")]
+layer = 3
+script = ExtResource("101_xl03k")
+nightHour = NodePath("NightHour")
+nightLevel = NodePath("NightLevel")
+currentTime = NodePath("CurrentTime")
+
+[node name="NightLevel" type="Label" parent="NightProgressLayer"]
+offset_left = 840.0
+offset_top = 32.0
+offset_right = 994.0
+offset_bottom = 69.0
+text = "Night 1"
+label_settings = SubResource("LabelSettings_acshu")
+horizontal_alignment = 2
+
+[node name="NightHour" type="Label" parent="NightProgressLayer"]
+offset_left = 880.0
+offset_top = 80.0
+offset_right = 990.0
+offset_bottom = 117.0
+text = "12 AM"
+label_settings = SubResource("LabelSettings_6xqxl")
+horizontal_alignment = 2
+
+[node name="CurrentTime" type="Label" parent="NightProgressLayer"]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -132.0
+offset_top = 112.0
+offset_right = -34.0
+offset_bottom = 133.0
+grow_horizontal = 0
+text = "00:00.000"
+label_settings = SubResource("LabelSettings_yh223")
+horizontal_alignment = 2
+
+[node name="UserInterfaceLayer" type="CanvasLayer" parent="."]
+layer = 3
+
+[node name="BatteryLife" type="AnimatedSprite2D" parent="UserInterfaceLayer" node_paths=PackedStringArray("counter")]
+position = Vector2(80, 56)
+sprite_frames = SubResource("SpriteFrames_0s2r5")
+script = ExtResource("31_306jh")
+counter = NodePath("BatteryLifeCounter")
+
+[node name="BatteryLifeCounter" type="Label" parent="UserInterfaceLayer/BatteryLife"]
+offset_left = 56.0
+offset_top = -16.0
+offset_right = 144.0
+offset_bottom = 21.0
+text = "7000"
+label_settings = SubResource("LabelSettings_rsgha")
+
+[node name="FlashlightText" type="Label" parent="UserInterfaceLayer/BatteryLife"]
+offset_left = -40.0
+offset_top = -36.0
+offset_right = 40.0
+offset_bottom = -22.0
+text = "flashlight"
+label_settings = SubResource("LabelSettings_e6vxm")
+
+[node name="PanelFlipAnimation" type="AnimatedSprite2D" parent="UserInterfaceLayer"]
+visible = false
+sprite_frames = SubResource("SpriteFrames_g217c")
+centered = false
+
+[node name="MaskCoverAnimation" type="AnimatedSprite2D" parent="UserInterfaceLayer"]
+visible = false
+sprite_frames = SubResource("SpriteFrames_0xaua")
+centered = false
+
+[node name="FlipPanelButton" type="Sprite2D" parent="UserInterfaceLayer"]
+position = Vector2(508, 704)
+texture = ExtResource("43_b8dtr")
+centered = false
+
+[node name="FlipPanelButtonControl" type="Control" parent="UserInterfaceLayer/FlipPanelButton" node_paths=PackedStringArray("flipAnimation", "flippingAudio", "unflippingAudio")]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 4.0
+offset_right = 516.0
+offset_bottom = 64.0
+script = ExtResource("129_o21qi")
+flipAnimation = NodePath("../../PanelFlipAnimation")
+flippingAudio = NodePath("../../../GameplayAudio/PanelFlipSound")
+unflippingAudio = NodePath("../../../GameplayAudio/PanelUnflipSound")
+
+[node name="FlipMaskButton" type="Sprite2D" parent="UserInterfaceLayer"]
+position = Vector2(22, 704)
+texture = ExtResource("54_lh3wa")
+centered = false
+
+[node name="FlipMaskButtonControl" type="Control" parent="UserInterfaceLayer/FlipMaskButton" node_paths=PackedStringArray("flipAnimation", "flippingAudio", "unflippingAudio")]
+layout_mode = 3
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -522.0
+offset_right = -10.0
+offset_bottom = 64.0
+grow_horizontal = 0
+script = ExtResource("129_o21qi")
+flipAnimation = NodePath("../../MaskCoverAnimation")
+flippingAudio = NodePath("../../../GameplayAudio/WearMaskSound")
+unflippingAudio = NodePath("../../../GameplayAudio/UnwearMaskSound")
+
+[node name="GameplayCamera" type="Camera2D" parent="." node_paths=PackedStringArray("flipPanelButtonControl")]
+anchor_mode = 0
+script = ExtResource("56_b46f0")
+flipPanelButtonControl = NodePath("../UserInterfaceLayer/FlipPanelButton/FlipPanelButtonControl")
+
+[node name="GameplayAudio" type="Node2D" parent="."]
+
+[node name="InTheDepthsC" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("57_6gj0l")
+volume_db = -13.863
+autoplay = true
+
+[node name="FanSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("58_wnpsv")
+volume_db = -13.863
+autoplay = true
+
+[node name="BuzzLightSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("59_mra13")
+volume_db = -80.0
+autoplay = true
+
+[node name="PanelFlipSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("60_tc8sy")
+volume_db = -13.863
+
+[node name="PanelUnflipSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("61_js3it")
+volume_db = -13.863
+
+[node name="WearMaskSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("62_quksb")
+volume_db = -13.863
+
+[node name="DeepBreathsSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("138_qou4g")
+volume_db = -80.0
+autoplay = true
+
+[node name="UnwearMaskSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("63_mapyg")
+volume_db = -13.863
+
+[node name="BlipSound" type="AudioStreamPlayer" parent="GameplayAudio"]
+stream = ExtResource("69_nv0hu")
+volume_db = -13.863

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bok7a45ldhmeg"
+path="res://.godot/imported/call 5b.ogg-b6abaf48d74a2af181e246424cd3057c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Sounds/call 5b.ogg"
+dest_files=["res://.godot/imported/call 5b.ogg-b6abaf48d74a2af181e246424cd3057c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

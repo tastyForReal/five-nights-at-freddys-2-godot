@@ -1,0 +1,149 @@
+[gd_scene load_steps=16 format=3 uid="uid://3aunietfi4bk"]
+
+[ext_resource type="Script" path="res://Game/Scenes/WhatDayScene/WhatDayScene.cs" id="1_2wtop"]
+[ext_resource type="FontFile" uid="uid://dg8nq4m5p180l" path="res://Resources/Fonts/OCR A Extended/OCRAEXT.TTF" id="1_4rp0v"]
+[ext_resource type="Texture2D" uid="uid://ci6j8rrbjkj8s" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash1.png" id="2_50yxg"]
+[ext_resource type="Script" path="res://Game/Scenes/WhatDayScene/NightText.cs" id="2_51m2d"]
+[ext_resource type="Texture2D" uid="uid://cjs0njrx76d1c" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash2.png" id="3_fmtks"]
+[ext_resource type="Texture2D" uid="uid://ccskdm46cna4m" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash3.png" id="4_aw5m4"]
+[ext_resource type="Texture2D" uid="uid://cj4hgfdaasho5" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash4.png" id="5_r4f24"]
+[ext_resource type="AudioStream" uid="uid://bll0ukjd7e8ck" path="res://Resources/Sounds/blip3.ogg" id="5_vb765"]
+[ext_resource type="Texture2D" uid="uid://d4ktk6ns3p6o7" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash5.png" id="6_edtau"]
+[ext_resource type="Texture2D" uid="uid://dvasqvhhrtly2" path="res://Resources/Images/WhatDayScene/Clock/Clock.png" id="8_rt41j"]
+
+[sub_resource type="Animation" id="Animation_5fwif"]
+resource_name = "FadeOut"
+step = 0.0166667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Clock:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_mppcl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("../Clock:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_xv7f7"]
+_data = {
+"FadeOut": SubResource("Animation_5fwif"),
+"RESET": SubResource("Animation_mppcl")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_xypf2"]
+line_spacing = 0.0
+font = ExtResource("1_4rp0v")
+font_size = 43
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ygkdm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_50yxg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_fmtks")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_aw5m4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_r4f24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_edtau")
+}, {
+"duration": 1.0,
+"texture": null
+}],
+"loop": false,
+"name": &"default",
+"speed": 30.0
+}]
+
+[node name="WhatDayScene" type="Node2D" node_paths=PackedStringArray("animationPlayer")]
+script = ExtResource("1_2wtop")
+animationPlayer = NodePath("AnimationPlayer")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5_vb765")
+autoplay = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+root_node = NodePath("../NightText")
+libraries = {
+"": SubResource("AnimationLibrary_xv7f7")
+}
+
+[node name="NightText" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 1024.0
+offset_bottom = 768.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+text = "12:00 AM
+
+1st Night"
+label_settings = SubResource("LabelSettings_xypf2")
+horizontal_alignment = 1
+vertical_alignment = 1
+script = ExtResource("2_51m2d")
+
+[node name="Clock" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(984, 728)
+texture = ExtResource("8_rt41j")
+
+[node name="BlipFlash" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ygkdm")
+autoplay = "default"
+frame = 5
+frame_progress = 1.0
+centered = false

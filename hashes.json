@@ -1,0 +1,618 @@
+[
+  {
+    "Hash": "B85973770CCF7629ABE2CA2D969324F2",
+    "Path": "Resources\\icon.png"
+  },
+  {
+    "Hash": "7D65FD111944D8824B0F4E5285F14A41",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\BalloonBoy.png"
+  },
+  {
+    "Hash": "D00CE219561B15F59EE81A2A34FD59E9",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\GoldenFreddy.png"
+  },
+  {
+    "Hash": "AF53CC1DD3A185B07DEA9D1F83E4C1BF",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\NewBonnie.png"
+  },
+  {
+    "Hash": "8B89AA2FC0E759FBE65DF99E7D5B78CC",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\NewChica.png"
+  },
+  {
+    "Hash": "2306F19CF42B0DA8D641176BC50D46FF",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\NewFoxy.png"
+  },
+  {
+    "Hash": "3D0A24AE6C9C08799337C82882B01F6C",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\NewFreddy.png"
+  },
+  {
+    "Hash": "82343F9ECD0784B37381BFFD98310FA1",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\OldBonnie.png"
+  },
+  {
+    "Hash": "D99A490443A24FE69ABBC979BC73133E",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\OldChica.png"
+  },
+  {
+    "Hash": "FFB924EC2096A62246A693239CD9C645",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\OldFoxy.png"
+  },
+  {
+    "Hash": "90FDB8FBA4E20DC41C7D4331090762C9",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\OldFreddy.png"
+  },
+  {
+    "Hash": "082DE0E8C97D9B1FF0C6E50513BFC2CD",
+    "Path": "Resources\\Images\\GameplayScene\\AnimatronicIcons\\Puppet.png"
+  },
+  {
+    "Hash": "BF50348FC1C5DB41A2096440D97CA0E5",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "E86C7B80A9443A72B492FAD3DB71381B",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-1.png"
+  },
+  {
+    "Hash": "B6E4C3779A9AA0B7DA30C56DFCC48504",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-10.png"
+  },
+  {
+    "Hash": "D764866CA4626E65767A1B23AEE392FD",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-2.png"
+  },
+  {
+    "Hash": "35C7E2CFECC85511A3D9EE5FDD1D5D3B",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-3.png"
+  },
+  {
+    "Hash": "28196B06D7961FA17B2D4719061180EF",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-4.png"
+  },
+  {
+    "Hash": "2A2EEFB9063E868CEEE415ACCEF2C865",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-5.png"
+  },
+  {
+    "Hash": "F2E39BC9B4E983FC0D08D8AFD825AFC2",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-6.png"
+  },
+  {
+    "Hash": "807056D028FC82235ECAD3840134F839",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-7.png"
+  },
+  {
+    "Hash": "12F8A5D8CBDC25F23105CF0CA0C6355D",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-8.png"
+  },
+  {
+    "Hash": "E87F657F79C6C04E650D43768E661109",
+    "Path": "Resources\\Images\\GameplayScene\\CameraFlipAnimation\\Animation-0 Direction-0 Frame-9.png"
+  },
+  {
+    "Hash": "EEAC6413C6D8EA36455EDB71134E9EF6",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-17 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "C7574ADFB9652C4FDA8780FABF500AB9",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-18 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "37BFC5B9655A5F2DECE97AA0224C2279",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-54 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "7A020CD7E10EBEDC6B52DAEFDC3928C5",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-85 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "AEC12B170E1CD7A6A6E82ED60644CCD0",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-86 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "0BCEA7BC36528BC461EE088D46112110",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\GameArea\\Animation-87 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "EE0C1C4D1591D357FD44E35E63CD1661",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\KidsCove\\Animation-19 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3380A4D538A8B0FC3575F17AB8218DF6",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\KidsCove\\Animation-20 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "D3591C8D5F934115EC25DFF1F0F1AB4D",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\KidsCove\\Animation-80 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "A51DB4798B9A4C193DB80677DF9F05F3",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\LeftAirVent\\Animation-100 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "87A4A3639E518E20AB8E5A67215FBFB8",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\LeftAirVent\\Animation-13 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "5EF13F32043FD6F1052621155C6BC1E7",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\LeftAirVent\\Animation-14 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "FE20FAACB2E67C7ABE3D867D12D996C8",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\LeftAirVent\\Animation-52 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "814DC5E5F5E85D9267A57F332F94AA9B",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\LeftAirVent\\Animation-60 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "A4749BDDF438D427A44B3D1CB67098F0",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-21 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "6DE05B84B4CD327772CCFB76E120649A",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-22 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "FA32D4BB6243628F563A283A5F828B72",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-48 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "892A164C258995EA432FE715F3CC895A",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-49 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "DD0C8F3558F1394EC76C5E8C8D11639B",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-57 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "5AA094C425BA6672E87FB40CADF040C8",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\MainHall\\Animation-70 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "04C8D01D961B0D29BA777A83592A16BD",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-23 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "10DF17592AEF6C89CC524701C2E7C512",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-24 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "6A71E32203C775C2E32DA252D263B1E4",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-62 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "0F204B7D02E45D9E933E12269E397589",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-63 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "0E42A4918E2CEBBD5239919890B70027",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-64 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "0D7AF094777103605F924D6CF510D5D3",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartsService\\Animation-75 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "4EF80E98A33F63D0B77D1867FE0243FF",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom1\\Animation-27 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "AC5092AAFA7BA0EAD2363D678D89A651",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom1\\Animation-28 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "381EC3DA819AECC8F4104D4FA91D73E9",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom1\\Animation-51 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "512A1E1E77000F4F2453D659F4C85E8E",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom1\\Animation-59 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "99CAB72C6C4940FF13F1972F52E9E656",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom2\\Animation-33 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "D32899C0D9B8AC71BCF4E863A102AD48",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom2\\Animation-34 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "4D19D799F2311229E87C06639954AABD",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom2\\Animation-44 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "FB595C9FC35083C7B1281817050D6E5F",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom2\\Animation-65 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3D33C45CE73F2402B470279D90D4621A",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom2\\Animation-66 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "F30883D166AFF118C8E02A93E21AD120",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom3\\Animation-29 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "1C7E7FD46439CE9B1AFF0C86C1509999",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom3\\Animation-30 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "8D4A4F0E8FB7259083F5934D58DFED00",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom3\\Animation-43 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "F0522BAA490B32E35106B006E7478B83",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom3\\Animation-71 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "954F6566515BE7160232F851DFDAACEF",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom3\\Animation-72 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "5EF9391EFBF20A95ABFCA8B7CFF30761",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom4\\Animation-31 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3A86BD7988EF3F3676C6A13FD42CD760",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom4\\Animation-32 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "6314526AF5A7938019D554B9E13DC6D1",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom4\\Animation-67 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "B24CD4035E026C795CB6C14DACBC5AF3",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom4\\Animation-90 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "F5EFBF71A5BAD2800E1442577507F937",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PartyRoom4\\Animation-91 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "115C2883BFE9ADC83B3D11F538825FF4",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PrizeCorner\\Animation-25 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "09D89D09B39232E251349BF947FA5F7E",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PrizeCorner\\Animation-26 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "952B05F30006C991C7F7613A2C23A7F5",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PrizeCorner\\Animation-77 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "E7AC5C49B565D5BEA0CCF56C5401EE77",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PrizeCorner\\Animation-78 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "F93DAF487B92FFD4F944AE8948A367CD",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\PrizeCorner\\Animation-79 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "9C032C5F4549CE5780F237467F3E08B6",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\RightAirVent\\Animation-15 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "23AB7C793C8E7B50EC842F42C4806C7E",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\RightAirVent\\Animation-16 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "EB11D8068A6FE5373535386B3339B28C",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\RightAirVent\\Animation-45 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3F39A9E753C6BA4523147D3A428D49B6",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\RightAirVent\\Animation-68 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "B82208F8CC668C8D235FFF55580870B9",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\RightAirVent\\Animation-81 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "BA74D29D94731626A718926540CFF372",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-12 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "A049F2DFB58349EE61EC8A969B62398C",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-39 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "5891E585F406248AB259306744CCF240",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-40 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "D779BCCA8EA4A8B238A18F4E161FB1BB",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-41 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "194503BF01CDBC8E01FB52DD319CD956",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-42 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "43A2601BE8435995169D502C7C2C70C0",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-46 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "59A643E04F05B4EBA22554FB4F65669C",
+    "Path": "Resources\\Images\\GameplayScene\\CameraImages\\ShowStage\\Animation-89 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "E6AD8E4D8EE5C17BEA0681D989ADF16C",
+    "Path": "Resources\\Images\\GameplayScene\\CameraUserInterface\\CameraBorder.png"
+  },
+  {
+    "Hash": "13A7395FE8C624AFE9357E2E83EAD889",
+    "Path": "Resources\\Images\\GameplayScene\\CameraUserInterface\\CameraButton.png"
+  },
+  {
+    "Hash": "5FFA4C6CF436ED294D946265E48A3BFD",
+    "Path": "Resources\\Images\\GameplayScene\\CameraUserInterface\\CameraButtonPressed.png"
+  },
+  {
+    "Hash": "6246008DE84C03825F82CF2C929B3A8F",
+    "Path": "Resources\\Images\\GameplayScene\\CameraUserInterface\\CameraMap.png"
+  },
+  {
+    "Hash": "823D77C05EDF213CA30294EB9377A0BE",
+    "Path": "Resources\\Images\\GameplayScene\\CameraUserInterface\\CameraRedDot.png"
+  },
+  {
+    "Hash": "4A53DAB708D93FF333172CA31B3EF3B7",
+    "Path": "Resources\\Images\\GameplayScene\\LeftLight\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "1B162A572BD9354A12131FE2347AF1E2",
+    "Path": "Resources\\Images\\GameplayScene\\LeftLight\\Animation-12 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "65D67ECE193AA6DAC33B5B527168A832",
+    "Path": "Resources\\Images\\GameplayScene\\Mask\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3E1A91BA1359613C91D2CAFB4A51C15D",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "3652AE2B8D71DCCC38BB0F5EC16BF44C",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-1.png"
+  },
+  {
+    "Hash": "67B84955118175F1554A1FD2E7BE6B40",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-2.png"
+  },
+  {
+    "Hash": "53D7D8B3683194DEA2A714D1DAB03A4F",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-3.png"
+  },
+  {
+    "Hash": "A6093B765E0EBCA275F8BD69EC2BD954",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-4.png"
+  },
+  {
+    "Hash": "23EE3765AEBBA51A4CA5886C488C7395",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-5.png"
+  },
+  {
+    "Hash": "787A4B6F46D1313BF441043A488C0F21",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-6.png"
+  },
+  {
+    "Hash": "858B0FDC39768E688068F2E6036B3016",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-7.png"
+  },
+  {
+    "Hash": "65BE9B2CB369EC5F3F1AAB62FC42E664",
+    "Path": "Resources\\Images\\GameplayScene\\MaskCoverAnimation\\Animation-0 Direction-0 Frame-8.png"
+  },
+  {
+    "Hash": "2E1C5A6EF230C0AD425F71CC66C9C1A6",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "2E1C5A6EF230C0AD425F71CC66C9C1A6",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-35 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "2C304927A04D697CF8C394773C67CDBD",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-36 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "7A65DCA2E819F54A7534E5CD2FBB1F1E",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-37 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "A373C2BC441967E16B03014E3B98506A",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-38 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "C18AC27E92847EEAB5FED52AD5F1FB38",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-47 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "7A61C3E50EF2D159311CDDF8D4EC403F",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-50 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "8A6B1A3882B628C663D919CB20E1B2AF",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-53 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "C6D8DF71497B6DEA48B704254AEFC1BA",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-55 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "41ACAE1843DA6C58ACF4E5E92181FF3A",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-56 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "171DE335766997D8FDE5BD369C87408A",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-58 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "B69E08C2A4F6AB126AB480D88464F6C0",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-61 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "77C6A6BBE29B0960FE378229DAB86153",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-69 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "213FE1BA6F815B5EAF7D09CFC43171E8",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-73 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "801B22C2F271CEF67E832932D30F6E90",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-74 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "BAEA7B784D2061A6F4BE03BF70BC9105",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-76 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "0AA1514244A27D25813E4C84C366B687",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-82 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "5F417D948096E27A646AA6767B8A539E",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-83 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "74962D846764F3BEC5C9B6ACC9B7B131",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-84 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "234C4D3E8E9BB5CF6375B6C2BE2CFF50",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-93 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "A84FF0F1717E1DE0D3B286343F8C522E",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-97 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "B76F499F0CFE3A306994309EA704B478",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-98 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "330EACB6A80A4B39F559C919A2C780BD",
+    "Path": "Resources\\Images\\GameplayScene\\Office\\Animation-99 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "E5D82EBE281A20C967B83AF35577682D",
+    "Path": "Resources\\Images\\GameplayScene\\RightLight\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "18393A6E1B4096A5C3CE1ACCB7EA0530",
+    "Path": "Resources\\Images\\GameplayScene\\RightLight\\Animation-12 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "E0DEB832AA1068B1A04A4D9E0C2FE701",
+    "Path": "Resources\\Images\\GameplayScene\\TableFan\\Animation-0 Direction-0 Frame-0.png"
+  },
+  {
+    "Hash": "CFC7F47EC805E77AC0C3CEBFC8173638",
+    "Path": "Resources\\Images\\GameplayScene\\TableFan\\Animation-0 Direction-0 Frame-1.png"
+  },
+  {
+    "Hash": "DE9FD88C995E358060B28A6FE8E7D352",
+    "Path": "Resources\\Images\\GameplayScene\\TableFan\\Animation-0 Direction-0 Frame-2.png"
+  },
+  {
+    "Hash": "14114CEAC1D28E546A1A44FB3037FE9E",
+    "Path": "Resources\\Images\\GameplayScene\\TableFan\\Animation-0 Direction-0 Frame-3.png"
+  },
+  {
+    "Hash": "EC7D44FE6402C6DE93A08DDCBAD822E9",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\BatteryLife1.png"
+  },
+  {
+    "Hash": "97A48B57201CAE1AB969E2A519E7B148",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\BatteryLife2.png"
+  },
+  {
+    "Hash": "26DE420073BCD490C5E339C01892CC03",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\BatteryLife3.png"
+  },
+  {
+    "Hash": "FDDBFB1A1474FEB727B6A5596CADB01E",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\BatteryLife4.png"
+  },
+  {
+    "Hash": "8582F621EFAAC7912670AB930765F169",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\BatteryLife5.png"
+  },
+  {
+    "Hash": "F91CCCA3A64E5008F89D72053E3C5C62",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\FlipMaskButton.png"
+  },
+  {
+    "Hash": "AD85103C9AE74AF99B501B09525168F6",
+    "Path": "Resources\\Images\\GameplayScene\\UI\\FlipPanelButton.png"
+  },
+  {
+    "Hash": "06AE1AA310F08FCADD86AFA261E01856",
+    "Path": "Resources\\Images\\MenuScene\\BlipFlash\\BlipFlash1.png"
+  },
+  {
+    "Hash": "ABC3F4D66F0FAAFAA04E0C9C7EA33A69",
+    "Path": "Resources\\Images\\MenuScene\\BlipFlash\\BlipFlash2.png"
+  },
+  {
+    "Hash": "15DC50A8A43877063A8CCA27BC0D2057",
+    "Path": "Resources\\Images\\MenuScene\\BlipFlash\\BlipFlash3.png"
+  },
+  {
+    "Hash": "532844132E53A18DF32481E80EB4AE8B",
+    "Path": "Resources\\Images\\MenuScene\\BlipFlash\\BlipFlash4.png"
+  },
+  {
+    "Hash": "C8B0F1884DBE2A4E063363F5E8A5D1C3",
+    "Path": "Resources\\Images\\MenuScene\\BlipFlash\\BlipFlash5.png"
+  },
+  {
+    "Hash": "1017934AD468E6E04A64868BE063CBA7",
+    "Path": "Resources\\Images\\MenuScene\\MenuBackground\\MenuBackground1.png"
+  },
+  {
+    "Hash": "66002EDA2043510C51EE5DF4B7CC5431",
+    "Path": "Resources\\Images\\MenuScene\\MenuBackground\\MenuBackground2.png"
+  },
+  {
+    "Hash": "47DB68170E3FEDC3D2A5A293B6EF41D2",
+    "Path": "Resources\\Images\\MenuScene\\MenuBackground\\MenuBackground3.png"
+  },
+  {
+    "Hash": "0A2B1C5E09FAE264088CC9B249C3E172",
+    "Path": "Resources\\Images\\MenuScene\\MenuBackground\\MenuBackground4.png"
+  },
+  {
+    "Hash": "FD08CDD9083A3E7208FDECC6F395B418",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static1.png"
+  },
+  {
+    "Hash": "BC3B75B33028AB383F502078DEF99875",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static2.png"
+  },
+  {
+    "Hash": "34A5FCB643620759B40FB8AB60E8D895",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static3.png"
+  },
+  {
+    "Hash": "A816CD26F3CA86ECD26D91437FDFCDA2",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static4.png"
+  },
+  {
+    "Hash": "EFCB818847A200EC457383CDB19B55C6",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static5.png"
+  },
+  {
+    "Hash": "21C6DCE311BFCD405446CC2307D25BE3",
+    "Path": "Resources\\Images\\MenuScene\\Static\\Static6.png"
+  },
+  {
+    "Hash": "D5E380D1F225D0465CB12ED7459E75AE",
+    "Path": "Resources\\Images\\WhatDayScene\\Clock\\Clock.png"
+  }
+]

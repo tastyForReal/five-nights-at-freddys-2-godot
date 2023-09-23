@@ -1,0 +1,310 @@
+[gd_scene load_steps=37 format=3 uid="uid://bc7g53l4qc5x0"]
+
+[ext_resource type="Script" path="res://Game/Scenes/MenuScene/MenuScene.cs" id="1_m5pr8"]
+[ext_resource type="Script" path="res://Game/Scenes/MenuScene/MenuBackground.cs" id="2_eplkr"]
+[ext_resource type="AudioStream" uid="uid://biy1o0hcvynib" path="res://Resources/Sounds/static2.ogg" id="2_j6e8p"]
+[ext_resource type="AudioStream" uid="uid://df2l0wva07e0" path="res://Resources/Sounds/The_Sand_Temple_Loop_G.ogg" id="3_1dmh4"]
+[ext_resource type="Script" path="res://Game/Scenes/MenuScene/Static.cs" id="3_k5l5s"]
+[ext_resource type="AudioStream" uid="uid://bll0ukjd7e8ck" path="res://Resources/Sounds/blip3.ogg" id="4_3xeu8"]
+[ext_resource type="Texture2D" uid="uid://cj4hgfdaasho5" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash4.png" id="4_nag8l"]
+[ext_resource type="Texture2D" uid="uid://dubx58714pxhv" path="res://Resources/Images/MenuScene/MenuBackground/MenuBackground1.png" id="5_4er4f"]
+[ext_resource type="Texture2D" uid="uid://d4ktk6ns3p6o7" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash5.png" id="5_nlj60"]
+[ext_resource type="Texture2D" uid="uid://p51k42t6q07c" path="res://Resources/Images/MenuScene/MenuBackground/MenuBackground2.png" id="6_0yty6"]
+[ext_resource type="Script" path="res://Game/Scenes/MenuScene/BlipFlash.cs" id="6_p0vfq"]
+[ext_resource type="FontFile" uid="uid://dg8nq4m5p180l" path="res://Resources/Fonts/OCR A Extended/OCRAEXT.TTF" id="7_c3voa"]
+[ext_resource type="Texture2D" uid="uid://c82iprhpk2jsw" path="res://Resources/Images/MenuScene/MenuBackground/MenuBackground3.png" id="7_rhvv4"]
+[ext_resource type="Texture2D" uid="uid://dtvsfjs0k0lb2" path="res://Resources/Images/MenuScene/MenuBackground/MenuBackground4.png" id="8_hx224"]
+[ext_resource type="FontFile" uid="uid://b8mdx3frmcft6" path="res://Resources/Fonts/Consolas/consola.ttf" id="8_v2gql"]
+[ext_resource type="FontFile" uid="uid://d3kwpqje6t8og" path="res://Resources/Fonts/LCD Solid/LcdSolid-VPzB.ttf" id="9_hkitw"]
+[ext_resource type="Texture2D" uid="uid://c3og2cnfs20mn" path="res://Resources/Images/MenuScene/Static/Static1.png" id="10_jd5tn"]
+[ext_resource type="Texture2D" uid="uid://dhg0wiigb74mm" path="res://Resources/Images/MenuScene/Static/Static2.png" id="11_kyo46"]
+[ext_resource type="Texture2D" uid="uid://odvpyrfrfm6v" path="res://Resources/Images/MenuScene/Static/Static3.png" id="12_ylmhr"]
+[ext_resource type="Texture2D" uid="uid://duijb6oglfv6j" path="res://Resources/Images/MenuScene/Static/Static4.png" id="13_mei3g"]
+[ext_resource type="Texture2D" uid="uid://xh7nex3yl7vy" path="res://Resources/Images/MenuScene/Static/Static5.png" id="14_ebqrl"]
+[ext_resource type="Texture2D" uid="uid://dt17jcbm17ra1" path="res://Resources/Images/MenuScene/Static/Static6.png" id="15_3uatn"]
+[ext_resource type="Texture2D" uid="uid://ci6j8rrbjkj8s" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash1.png" id="17_m5c4h"]
+[ext_resource type="Texture2D" uid="uid://cjs0njrx76d1c" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash2.png" id="18_ov00s"]
+[ext_resource type="Texture2D" uid="uid://ccskdm46cna4m" path="res://Resources/Images/MenuScene/BlipFlash/BlipFlash3.png" id="19_nj4us"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sr68f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("5_4er4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0yty6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rhvv4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_hx224")
+}],
+"loop": true,
+"name": &"default",
+"speed": 0.0
+}]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ms80o"]
+blend_mode = 1
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_d0qy6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_jd5tn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_kyo46")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_ylmhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_mei3g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ebqrl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_3uatn")
+}],
+"loop": true,
+"name": &"default",
+"speed": 60.0
+}]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1p2ax"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_m5c4h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ov00s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_nj4us")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_nag8l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nlj60")
+}],
+"loop": true,
+"name": &"default",
+"speed": 3.0
+}]
+
+[sub_resource type="Animation" id="Animation_wq56e"]
+resource_name = "MovingBlipLine"
+length = 20.0
+loop_mode = 1
+step = 0.0333333
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 20),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, -32), Vector2(0, 768)]
+}
+
+[sub_resource type="Animation" id="Animation_rgx03"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -32)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_n7obh"]
+_data = {
+"MovingBlipLine": SubResource("Animation_wq56e"),
+"RESET": SubResource("Animation_rgx03")
+}
+
+[sub_resource type="LabelSettings" id="LabelSettings_fbjm2"]
+line_spacing = 0.0
+font = ExtResource("7_c3voa")
+font_size = 64
+
+[sub_resource type="LabelSettings" id="LabelSettings_d3stg"]
+line_spacing = 0.0
+font = ExtResource("7_c3voa")
+font_size = 48
+
+[sub_resource type="LabelSettings" id="LabelSettings_hrnww"]
+font = ExtResource("8_v2gql")
+font_size = 48
+
+[sub_resource type="LabelSettings" id="LabelSettings_kn4m8"]
+font = ExtResource("9_hkitw")
+font_size = 24
+
+[node name="MenuScene" type="Node2D" node_paths=PackedStringArray("blipSound", "continueButton", "continueSelector", "newGameButton", "newGameSelector", "nightText")]
+script = ExtResource("1_m5pr8")
+blipSound = NodePath("BlipSound")
+continueButton = NodePath("ContinueText/ContinueButton")
+continueSelector = NodePath("ContinueText/Selector")
+newGameButton = NodePath("NewGameText/NewGameButton")
+newGameSelector = NodePath("NewGameText/Selector")
+nightText = NodePath("NightText")
+
+[node name="StaticSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_j6e8p")
+volume_db = -13.863
+autoplay = true
+
+[node name="ThemeMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_1dmh4")
+autoplay = true
+
+[node name="BlipSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_3xeu8")
+
+[node name="MenuBackground" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_sr68f")
+centered = false
+script = ExtResource("2_eplkr")
+
+[node name="Static" type="AnimatedSprite2D" parent="."]
+material = SubResource("CanvasItemMaterial_ms80o")
+sprite_frames = SubResource("SpriteFrames_d0qy6")
+autoplay = "default"
+centered = false
+script = ExtResource("3_k5l5s")
+
+[node name="BlipFlash" type="AnimatedSprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.12549)
+sprite_frames = SubResource("SpriteFrames_1p2ax")
+autoplay = "default"
+centered = false
+script = ExtResource("6_p0vfq")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+modulate = Color(1, 1, 1, 0.215686)
+offset_top = -32.0
+offset_right = 1024.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ColorRect"]
+autoplay = "MovingBlipLine"
+libraries = {
+"": SubResource("AnimationLibrary_n7obh")
+}
+
+[node name="Title" type="Label" parent="."]
+offset_left = 88.0
+offset_top = 24.0
+offset_right = 128.0
+offset_bottom = 364.0
+text = "Five Nights at Freddy's 2"
+label_settings = SubResource("LabelSettings_fbjm2")
+autowrap_mode = 2
+
+[node name="NewGameText" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 88.0
+offset_top = 440.0
+offset_right = 320.0
+offset_bottom = 491.0
+grow_horizontal = 0
+text = "New Game"
+label_settings = SubResource("LabelSettings_d3stg")
+
+[node name="NewGameButton" type="Control" parent="NewGameText"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.0
+offset_top = -25.5
+offset_right = 116.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Selector" type="Label" parent="NewGameText"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -296.0
+offset_top = -21.5
+offset_right = -244.0
+offset_bottom = 30.5
+grow_horizontal = 0
+grow_vertical = 2
+text = ">>"
+label_settings = SubResource("LabelSettings_hrnww")
+
+[node name="ContinueText" type="Label" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 88.0
+offset_top = 528.0
+offset_right = 320.0
+offset_bottom = 579.0
+grow_horizontal = 0
+text = "Continue"
+label_settings = SubResource("LabelSettings_d3stg")
+
+[node name="ContinueButton" type="Control" parent="ContinueText"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.0
+offset_top = -25.5
+offset_right = 116.0
+offset_bottom = 25.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Selector" type="Label" parent="ContinueText"]
+visible = false
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -296.0
+offset_top = -21.5
+offset_right = -244.0
+offset_bottom = 30.5
+grow_horizontal = 0
+grow_vertical = 2
+text = ">>"
+label_settings = SubResource("LabelSettings_hrnww")
+
+[node name="NightText" type="Label" parent="."]
+visible = false
+offset_left = 96.0
+offset_top = 576.0
+offset_right = 201.0
+offset_bottom = 604.0
+text = "Night 1"
+label_settings = SubResource("LabelSettings_kn4m8")

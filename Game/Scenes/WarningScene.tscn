@@ -1,0 +1,80 @@
+[gd_scene load_steps=8 format=3 uid="uid://bx6r7idedm2fm"]
+
+[ext_resource type="Script" path="res://Game/Scenes/WarningScene/WarningScene.cs" id="1_pdnvt"]
+[ext_resource type="FontFile" uid="uid://clr7n2ld0g6ju" path="res://Resources/Fonts/Tahoma/tahoma.ttf" id="2_316on"]
+[ext_resource type="PackedScene" uid="uid://bc7g53l4qc5x0" path="res://Game/Scenes/MenuScene.tscn" id="2_u1355"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_7bxa3"]
+line_spacing = 0.0
+font = ExtResource("2_316on")
+font_size = 28
+
+[sub_resource type="Animation" id="Animation_wf5jv"]
+resource_name = "Fade"
+length = 7.0
+step = 0.0166667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0001, 1, 6, 7),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hsym0"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Label:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_6m5o5"]
+_data = {
+"Fade": SubResource("Animation_wf5jv"),
+"RESET": SubResource("Animation_hsym0")
+}
+
+[node name="WarningScene" type="Node2D" node_paths=PackedStringArray("player")]
+script = ExtResource("1_pdnvt")
+menuScene = ExtResource("2_u1355")
+player = NodePath("Label/AnimationPlayer")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_right = 1024.0
+offset_bottom = 768.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+text = "WARNING!
+
+This game contains flashing lights, loud
+noises, and lots of jumpscares!"
+label_settings = SubResource("LabelSettings_7bxa3")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Label"]
+root_node = NodePath("../..")
+autoplay = "Fade"
+libraries = {
+"": SubResource("AnimationLibrary_6m5o5")
+}

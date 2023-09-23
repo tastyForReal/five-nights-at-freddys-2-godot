@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b7navvtnr8y22"
+path="res://.godot/imported/elec garble.ogg-b0790493e3e62c025db8cc8a09d96f3c.oggvorbisstr"
+
+[deps]
+
+source_file="res://Resources/Sounds/elec garble.ogg"
+dest_files=["res://.godot/imported/elec garble.ogg-b0790493e3e62c025db8cc8a09d96f3c.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

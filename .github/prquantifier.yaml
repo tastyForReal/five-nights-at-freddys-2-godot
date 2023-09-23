@@ -1,0 +1,22 @@
+Excluded:
+    - prquantifier.yaml
+
+Thresholds:
+    - Value: 10
+      Label: size/XS
+      Color: Lime
+    - Value: 30
+      Label: size/S
+      Color: Green
+    - Value: 100
+      Label: size/M
+      Color: Orange
+    - Value: 500
+      Label: size/L
+      Color: Maroon
+    - Value: 1000
+      Label: size/XL
+      Color: Crimson
+    - Value: 2000
+      Label: size/XXL
+      Color: Red
